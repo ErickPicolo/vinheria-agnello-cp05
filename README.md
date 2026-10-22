@@ -128,11 +128,8 @@ O código foi desenvolvido na Arduino IDE e executa continuamente o seguinte flu
 ## 📁 Estrutura do Repositório
 
 ```
-firmware/vinheria_agnello.ino    Código do ESP32
-wokwi/sketch.ino                 Código da simulação no Wokwi
-wokwi/diagram.json               Circuito da simulação no Wokwi
-wokwi/libraries.txt              Bibliotecas da simulação no Wokwi
-README.md                        Documentação do projeto
+vinheria_agnello.ino    Código do ESP32
+README.md               Documentação do projeto
 ```
 
 ---
@@ -144,7 +141,7 @@ README.md                        Documentação do projeto
 1. Instale a Arduino IDE
 2. Instale o suporte à placa **esp32 by Espressif Systems**
 3. Instale as bibliotecas **PubSubClient**, **DHT sensor library** e **Adafruit Unified Sensor**
-4. Abra o arquivo `firmware/vinheria_agnello.ino`
+4. Abra o arquivo `vinheria_agnello.ino`
 5. Configure `SSID` e `PASSWORD` com os dados da rede Wi-Fi (rede 2,4 GHz)
 6. Conecte o ESP32 via USB
 7. Selecione:
