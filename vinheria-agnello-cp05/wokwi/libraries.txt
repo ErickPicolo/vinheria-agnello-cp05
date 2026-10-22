@@ -1,3 +1,0 @@
-PubSubClient
-DHT sensor library
-Adafruit Unified Sensor
